@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adéntrate en el mundo surrealista de David Firth a través de una de su arte y animaciones que exploran los límites de la mente, el absurdo y la decadencia humana.">
+    <meta name="keywords" content="David Firth, surrealismo, animación, arte experimental, frases impactantes, absurdo, decadencia, creatividad oscura, arte independiente">
+    <meta name="author" content="Black Rain">
+    <link rel="icon" href="./media/img/icono-nube-megra.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>David Firth Surrealismo digital</title>
+</head>
+<body>
+    <header class="header fixed-top">
+        <nav class="header__nav navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">Black Rain</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./proximamente.html">Sobre nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./proximamente.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./proximamente.html">Galería</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./proximamente.html">Contacto</a></li>
+                    </ul>
+                    <img src="../media/logo.png" alt="Logo" class="header__logo ms-3" height="40" width="40">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="df-main">
+        <div class="df-main__content container">
+            <article class="p-4 rounded shadow-sm">
+                <h1 class="display-4">David Firth</h1>
+                <p class="lead">
+                    Es un animador, director, escritor y músico británico conocido por su estilo oscuro, surrealista y muchas veces perturbador. Es famoso por sus animaciones en Flash que alcanzaron popularidad en internet a principios de la década de 2000.
+                </p>
+                <p>
+                    Una de sus obras mas famosas fue Salad Fingers, una serie animada que sigue a un personaje extraño y sombrío con "dedos de ensalada", una figura de aspecto enfermizo que habita en un mundo post-apocalíptico. La serie se convirtió en un fenómeno de culto, destacando por su atmósfera inquietante y su tono inexplicablemente perturbador.
+                </p>
+            </article>
+        </div>
+
+        <!-- Carrusel importado de bootstrap -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../media/img/carrusel-ad-1.png" class="d-block w-100" alt="Primera imagen">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Primera Imagen</h5>
+                        <p>Descripción de la primera imagen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../media/img/salad-fingers-2.png" class="d-block w-100" alt="Segunda imagen">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Segunda Imagen</h5>
+                        <p>Descripción de la segunda imagen.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../media/img/carrusel-df-3.jpg" class="d-block w-100" alt="Tercera imagen">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Tercera Imagen</h5>
+                        <p>Descripción de la tercera imagen.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </main>
+
+    <footer class="footer text-center py-4">
+        <p class="footer__text mb-2">Derechos reservados ;)</p>
+        <section class="footer__comments">
+            <h2 class="footer__comments-title">Dinos qué piensas</h2>
+            <p class="footer__comments-description">Puedes contactarnos a través del siguiente formulario:</p>
+            <form action="#" method="POST" class="footer__comments-form container">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre:</label>
+                    <input type="text" id="name" name="name" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje:</label>
+                    <textarea id="message" name="message" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.fg-main {
+    background: rgb(255,215,0);
+    background: radial-gradient(circle, rgba(255,215,0,0.41226356907894735) 0%, rgba(75,0,130,0.5537109375) 100%);
+    margin-top: 50px;
+}
+
+.fg-main__content {
+    background-color: map-get($colors, transitions);
+    border-radius: 25px;
+    .row {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,76 @@
+/* General del carrusel */
+.carousel {
+    margin: 2rem 0;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Imágenes del carrusel */
+.carousel img {
+    height: 400px; /* Ajusta según tus necesidades */
+    object-fit: cover; /* Ajusta la imagen sin distorsión */
+}
+
+/* Indicadores (los puntos) */
+.carousel-indicators button {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+
+.carousel-indicators button.active {
+    opacity: 1;
+    background-color: #007bff; /* Color destacado */
+}
+
+/* Controles de navegación (prev/next) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro para mayor visibilidad */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Aumenta el área de clic */
+}
+
+/* Títulos y descripciones */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6); /* Fondo semitransparente */
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.carousel-caption p {
+    color: #ddd;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.df-main{
+    background: rgb(255,215,0);
+    background: radial-gradient(circle, rgba(255,215,0,0.41226356907894735) 0%, rgba(75,0,130,0.5537109375) 100%);
+}
+
+.df-main__content{
+    background-color: map-get($colors, transitions);
+    border-radius: 25px;
+    margin-top: 50px;
+    .row{
+        justify-content: center;
+    }
+}
+.carousel{
+    margin-bottom: 0px;
+}

@@ -1,0 +1,17 @@
+.index-main{
+    background: rgb(255,215,0);
+    background: radial-gradient(circle, rgba(255,215,0,0.41226356907894735) 0%, rgba(75,0,130,0.5537109375) 100%);
+}
+
+.index-main__content{
+    background-color: map-get($colors, transitions);
+    border-radius: 25px;
+    .row{
+        display: flex;
+        justify-content: center;
+    .c_tt{
+        margin-top: 20px;
+                justify-content: center;
+    }
+    }
+}

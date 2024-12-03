@@ -1,0 +1,23 @@
+//Estilo importado 
+.vhs {
+    font-family: 'Courier New', monospace;
+    position: relative;
+    width: 70%;
+    height: 90%;
+    margin: 8rem auto ;
+    background: url('/media/img/vhs-background.gif') no-repeat center center/cover;
+    border: 5px solid map-get($colors, primary); 
+    box-shadow: 0 0 15px #ff0080, 0 0 30px #00ffcc;
+    -webkit-text-stroke: 1px #00ffff;
+
+    &-content {
+        h1 {
+            color: #ff0080;
+            text-shadow: 2px 2px 0 #00ffcc, -2px -2px 0 #00ffcc;
+        }
+        p {
+            color: #00ffcc;
+            text-shadow: 1px 1px 0 #ff0080, -1px -1px 0 #ff0080;
+        }
+    }
+}

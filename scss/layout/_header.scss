@@ -1,0 +1,8 @@
+.header{
+    background-color: map-get($colors, primary);
+    :hover{color: white;}
+    a{
+        color: map-get($colors, accent);
+    }
+    margin-bottom: 0;
+}

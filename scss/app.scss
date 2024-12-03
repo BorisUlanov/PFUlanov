@@ -1,0 +1,23 @@
+//Utilizo el prefijo "_" para definir archivos parciales
+
+//general
+@import "general/variables";
+@import "general/mixins";
+@import "general/reset";
+
+//layout
+@import "layout/cards";
+@import "layout/grids";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/vhs.style";
+
+//pages
+@import "pages/proximamente";
+@import "pages/beksinski";
+@import "pages/christian-cantamessa";
+@import "pages/david-firth";
+@import "pages/index";
+@import "pages/goya";
+@import "pages/lovecraft";
+@import "pages/405"

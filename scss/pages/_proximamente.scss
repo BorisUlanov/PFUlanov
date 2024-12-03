@@ -1,0 +1,42 @@
+
+.coming-soon {
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  background: map-get($colors, accent);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+
+  h1 {
+    font-size: 2rem;
+    color: map-get($colors, primary);
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin: 10px 0 20px;
+  }
+
+  .gif {
+    max-width: 100%;
+    border: 2px solid map-get($colors, primary);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .home-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: map-get($colors, secondary);
+    background-color: map-get($colors, accent);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+
+    &:hover {
+      background-color: lighten(map-get($colors, accent), 10%);
+      transform: scale(1.1);
+    }
+  }
+}

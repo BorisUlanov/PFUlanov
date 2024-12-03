@@ -1,0 +1,11 @@
+{
+  "name": "preentrega3ulanov",
+  "version": "1.0.0",
+  "description": "Maquetado web simple, con varias páginas, utilizando SCSS y SASS naturalmente, algunas animaciones, y técnicas SEO.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
